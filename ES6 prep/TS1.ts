@@ -56,14 +56,27 @@ console.log(price);
 const students = [
     {name: 'viswa', major: 'computer science'},
     {name: 'axel', major: 'computer science'},
-    {name: 'anu', major: 'computer science'},
+    {name: 'anu', major: 'science'},
     {name: 'PJ', major: 'computer science'},
 ]
-// filter
+// filter return boolean
+let csMajor = students.filter((obj)=>obj.major === 'computer science')
+console.log(csMajor);
+
 
 /**************************
- * foreach method
+ * find method
  ***************************/
+const students2 = [
+    {name: 'viswa', age: 22, major: 'computer science'},
+    {name: 'axel', age: 19, major: 'computer science'},
+    {name: 'anu', age: 20, major: 'science'},
+    {name: 'PJ', age: 21, major: 'computer science'},
+]
+
+// find
+const studentOver20 = students2.find((obj)=>(obj.age > 20)?obj.name:undefined);
+console.log(studentOver20);
 
 /**************************
  * foreach method
