@@ -105,6 +105,28 @@ console.log(ScoreAverage);
 
 
 /**************************
+ * template litrals
+ ***************************/
+function printCurrentDate() : string {
+    const date = new Date().getDate;    
+    const month = new Date().getMonth;    
+    const year = new Date().getFullYear; 
+    return `Current date is : ${date}`;   
+}
+console.log(printCurrentDate());
+
+console.log(`Current date is : ${new Date().getDate}/${new Date().getMonth}/${new Date().getFullYear}`);
+
+
+/**************************
+ * foreach method
+ ***************************/
+
+/**************************
+ * foreach method
+ ***************************/
+
+/**************************
  * foreach method
  ***************************/
 
