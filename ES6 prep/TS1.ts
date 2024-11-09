@@ -87,12 +87,22 @@ console.log(isEverystudentOver20);
 
 
 /**************************
- * foreach method
+ * some method
  ***************************/
 
+const areSomestudentOver20 = students2.some((obj)=>obj.age > 20);
+console.log(areSomestudentOver20);
 /**************************
- * foreach method
+ * reduce method
  ***************************/
+const studentScore = [80,90,85,75,100]
+
+const ScoreSum = studentScore.reduce((acc,num)=>acc+num,0);
+console.log(ScoreSum);
+
+const ScoreAverage = studentScore.reduce((acc,num)=>acc+num,0)/studentScore.length;
+console.log(ScoreAverage);
+
 
 /**************************
  * foreach method
