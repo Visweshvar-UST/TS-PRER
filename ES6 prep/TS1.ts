@@ -79,8 +79,12 @@ const studentOver20 = students2.find((obj)=>(obj.age > 20)?obj.name:undefined);
 console.log(studentOver20);
 
 /**************************
- * foreach method
+ * every method
  ***************************/
+// every
+const isEverystudentOver20 = students2.every((obj)=>obj.age > 20);
+console.log(isEverystudentOver20);
+
 
 /**************************
  * foreach method
